@@ -1,3 +1,10 @@
-black
-pylint
-pytest
+black           # PEP8 formatter
+click           # CLI great interface
+fastapi         # API
+ipython         # great Python interpreter
+notebook        # all Jupyter notebook needs
+pylint          # linter
+pytest          # tests
+pytest-cov      # tests (pytest addon)
+setuptools      # package install & distribution
+uvicorn         # ASGI web server

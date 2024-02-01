@@ -9,7 +9,7 @@ format:
 	black *.py
 
 lint:
-	pylint --disable=R,C mon_fichier.py
+	pylint --disable=R,C patient.py
 
 all:
 	install lint test format
