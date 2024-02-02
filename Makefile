@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv mon_fichier.py
+	python -m pytest -vv --cov=ma_fonction test_*.py
 
 format:
 	black *.py
