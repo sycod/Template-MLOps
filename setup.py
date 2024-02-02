@@ -7,7 +7,7 @@ setup(
     install_requires=["click"],
     entry_points="""
     [console_scripts]
-    patient_info=patient_info.patient:pid
+    patient_info=api_patient_info.patient:pid
     """,
     author="JL",
     author_email="j@l.com",
