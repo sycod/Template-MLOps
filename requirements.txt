@@ -4,6 +4,7 @@ datasets        # Hugging Face (datasets)
 fastapi         # API
 gradio          # ML GUI
 ipython         # great Python interpreter
+mlflow          # ML tracker
 nicegui         # cool Python GUI
 notebook        # all Jupyter notebook needs
 pandasgui       # DS reports

@@ -1,15 +1,17 @@
+"""Example of setup installation for CLI Python modules"""
+
 from setuptools import setup, find_packages
 
 setup(
     name="patient_info",
     version="0.0.1",
-    description="API test module",
+    description="CLI test module",
     install_requires=["click"],
     entry_points="""
     [console_scripts]
-    patient_info=api_patient_info.patient:pid
+    patient_info=cli_example.patient:pid
     """,
-    author="JL",
-    author_email="j@l.com",
+    author="JD",
+    author_email="j@d.com",
     packages=find_packages(),
 )
