@@ -1,15 +1,11 @@
 """FastAPI blueprint"""
 
 from fastapi import FastAPI
-from fastapi import HTMLResponse
+from fastapi.responses import HTMLResponse
 import uvicorn
 
 
 app = FastAPI()
-
-class Body(Basemodel):
-    text: str
-
 
 @app.get("/")
 async def root():
