@@ -1,22 +1,31 @@
 """FastAPI blueprint"""
 
 from fastapi import FastAPI
+from fastapi import HTMLResponse
 import uvicorn
 
 
 app = FastAPI()
 
+class Body(Basemodel):
+    text: str
+
 
 @app.get("/")
 async def root():
     """Simple print function"""
-    return {"message": "Hi Dude"}
+
+    response = {"message": "Hi Dude"}
+
+    return HTMLResponse(f"<h1>Welcome!</h1><p>{response}</p>")
+
 
 @app.get("/add/{num1}/{num2}")
 async def add(num1: int, num2: int):
     """Add two integers"""
 
     total = num1 + num2
+
     return {"total": total}
 
 if __name__ == "__main__":
