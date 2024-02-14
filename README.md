@@ -1,3 +1,3 @@
-# ocp5-sof-api
+# MLOps template : todo
 
-Lacks of dev containers (Docker).
+- Dev containers (Docker)
