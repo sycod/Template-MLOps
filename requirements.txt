@@ -11,6 +11,7 @@ pandasgui       # DS reports
 pipreqs         # simple requirements
 pipreqsnb       # simple requirements for notebooks
 plotly          # interactive plots (with JS)
+pylint          # great linter
 pytest          # unit tests
 pytest-cov      # unit tests, cover a specific function
 scikit-learn    # ML must-have
