@@ -2,6 +2,9 @@ install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
 
+lint:
+	pylint --disable=R,C patient.py
+
 test:
 	# --cov for details on a function
 	# test_*.py → python tests files are prefixed as is
@@ -9,9 +12,6 @@ test:
 
 format:
 	black *.py
-
-lint:
-	pylint --disable=R,C patient.py
 
 all:
 	install lint test format
