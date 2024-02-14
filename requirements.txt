@@ -11,9 +11,8 @@ pandasgui       # DS reports
 pipreqs         # simple requirements
 pipreqsnb       # simple requirements for notebooks
 plotly          # interactive plots (with JS)
-pylint
-pytest
-pytest-cov
+pytest          # unit tests
+pytest-cov      # unit tests, cover a specific function
 scikit-learn    # ML
 seaborn         # plots
 session_info    # notebooks requirements
