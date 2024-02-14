@@ -17,6 +17,7 @@ scikit-learn    # ML
 seaborn         # plots
 session_info    # notebooks requirements
 setuptools      # package install & distribution
+streamlit       # ML GUI
 torch           # DL (pytorch)
 transformers    # Hugging Face (models, etc.)
 unidecode       # unicode formatter
