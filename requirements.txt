@@ -14,6 +14,7 @@ plotly          # interactive plots (with JS)
 pylint          # great linter
 pytest          # unit tests
 pytest-cov      # unit tests, cover a specific function
+pyyaml          # YAML support
 scikit-learn    # ML must-have
 seaborn         # plots
 session_info    # notebooks requirements
