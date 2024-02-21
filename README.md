@@ -1,10 +1,14 @@
 # MLOps template : todo
 
-- Dev containers (Docker)
 - Github Actions
 - MLFlow example
 
-# MLOps practice
+If planning to use this MLOps template :
+
+1. **update devcontainer.json and requirements.txt** before starting any codespace  
+(they will be executed at codespace creation)
+
+# From scratch
 
 0. **create repo** + README + .gitignore + [licence](https://choosealicense.com/)
 1. open repo in a new **Code space** (or create a **dedicated VM** and clone repo)
