@@ -2,7 +2,7 @@ bashrc:
 	# apply once at VM start
 	# alias
 	echo "alias ll='ls -alF'" >> ~/.bashrc
-	# launch venv at startup
+	# launch virtual env at startup
 	echo "source ~./env/Scripts/activate" >> ~/.bashrc
 
 install:
