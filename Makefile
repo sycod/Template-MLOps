@@ -6,11 +6,13 @@ lint:
 	pylint --disable=R,C patient.py
 
 test:
-	# --cov for details on a function
+	# --cov=my_function test_*.py for details on a function
 	# test_*.py → python tests files are prefixed as is
-	python -m pytest -vv --cov=ma_fonction test_*.py
+	#  --disable-warnings, if needed
+	python -m pytest -vvv
 
 format:
+	# --force-exclude '<FILE_OR_FOLDER>' if needed (env, imported, models...)
 	black *.py
 
 all:
