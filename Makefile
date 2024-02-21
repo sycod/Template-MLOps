@@ -1,3 +1,10 @@
+bashrc:
+	# apply once at VM start
+	# alias
+	echo "alias ll='ls -alF'" >> ~/.bashrc
+	# launch venv at startup
+	echo "source ~./env/Scripts/activate" >> ~/.bashrc
+
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
