@@ -1,10 +1,10 @@
 black           # PEP8 formatter
-# click           # CLI great interface
+click           # CLI great interface
 # datasets        # Hugging Face (datasets)
-# fastapi         # API
+fastapi         # API
 # gradio          # ML GUI
 # ipython         # great Python interpreter
-# mlflow          # ML tracker and more
+mlflow          # ML tracker and more
 # nicegui         # cool Python GUI
 # notebook        # all Jupyter notebook needs
 # pandasgui       # DS reports
@@ -16,7 +16,7 @@ pylint          # great linter
 pytest          # unit tests
 pytest-cov      # unit tests, cover a specific function
 pyyaml          # YAML support
-# scikit-learn    # ML must-have
+scikit-learn    # ML must-have
 # seaborn         # plots
 # session_info    # notebooks requirements
 # setuptools      # package install & distribution
