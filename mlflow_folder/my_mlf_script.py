@@ -31,6 +31,5 @@ def main_autolog():
 
 
 if __name__ == '__main__':
-    mlflow.start_run()
-    main_autolog()
-    mlflow.end_run()
+    with mlflow.start_run():
+        main_autolog()
