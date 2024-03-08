@@ -1,10 +1,19 @@
+[![Badge example](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml)
 
-[![Exemple badge](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml)
+---
+title: MLOps template
+emoji: 🦄
+colorFrom: blue
+colorTo: pink
+app_file: blueprint_fast_api.py
+license: mit
+---
 
 # MLOps template : todo
 
-- Github Actions
-- MLFlow example
+- [x] Github Actions
+- [x] MLFlow example
+- [ ] ...
 
 If planning to use this MLOps template :
 
