@@ -1,3 +1,6 @@
+
+[![Exemple badge](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml)
+
 # MLOps template : todo
 
 - Github Actions
