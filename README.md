@@ -1,14 +1,6 @@
----
-title: MLOps template
-emoji: 🦄
-colorFrom: blue
-colorTo: pink
-app_file: blueprint_fast_api.py
-license: MIT
----
-Badge 1|Badge 2
-:---:|:---:
-[![Badge example 1](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml) | [![Badge example 2](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml)
+Title | Icon | Licence | Badge 1 | Badge 2
+:---:|:---:|:---:|:---:|:---:
+MLOps template | 🦄 | MIT | [![Badge example 1](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml) | [![Badge example 2](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml)
 
 # MLOps template : todo
 
