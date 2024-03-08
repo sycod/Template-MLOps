@@ -1,5 +1,3 @@
-[![Badge example](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml)
-
 ---
 title: MLOps template
 emoji: 🦄
@@ -8,6 +6,8 @@ colorTo: pink
 app_file: blueprint_fast_api.py
 license: mit
 ---
+
+[![Badge example](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml)
 
 # MLOps template : todo
 
