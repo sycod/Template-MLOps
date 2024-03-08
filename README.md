@@ -4,9 +4,10 @@ emoji: 🦄
 colorFrom: blue
 colorTo: pink
 app_file: blueprint_fast_api.py
-license: mit
+license: MIT
 ---
 
+[![Badge example](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml)
 [![Badge example](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml)
 
 # MLOps template : todo
