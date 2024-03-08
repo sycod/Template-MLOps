@@ -8,7 +8,7 @@ license: MIT
 ---
 
 |:---:|:---:|
-[![Badge example 1](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml) | [![Badge example 2](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml)
+|[![Badge example 1](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml) | [![Badge example 2](https://github.com/sycod/container_test/actions/workflows/main.yaml/badge.svg)](https://github.com/sycod/container_test/actions/workflows/main.yaml)|
 
 # MLOps template : todo
 
