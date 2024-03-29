@@ -7,5 +7,5 @@
 echo "source ~/.env/bin/activate" >> ~/.bashrc
 
 # aliases
-echo "alias ll='ls -alF'" >> ~/.bashrc
+echo "alias ll='ls -alFh'" >> ~/.bashrc
 echo "alias cd_project='cd $PWD'" >> ~/.bashrc
