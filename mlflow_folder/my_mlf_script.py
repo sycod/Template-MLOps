@@ -17,6 +17,9 @@ def main_manual():
     mlflow.log_metric("TimeToCompute", 1)
 
     mlflow.log_artifact("my_artifact.csv")
+    
+    # mlflow.log_model(my_model, "random-forest-model")
+    # mlflow.log_figure(fig1, "stability.png")
 
 
 def main_autolog():
@@ -31,5 +34,7 @@ def main_autolog():
 
 
 if __name__ == '__main__':
-    with mlflow.start_run():
-        main_autolog()
+    mlflow.start_run()
+    # mlflow.start_run(run_name='TRAIN')
+    main_autolog()
+    mlflow.end_run()
