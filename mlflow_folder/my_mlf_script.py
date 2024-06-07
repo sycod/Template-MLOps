@@ -12,9 +12,20 @@ def main_manual():
 
     mlflow.log_param("threshold", 4)
     mlflow.log_param("verbosity", "INFO")
+    # multiple are possible
+    # mlflow.log_params({
+    #     "w2v_sg": w2v_sg,
+    #     "w2v_epochs": w2v_epochs,
+    # })
 
     mlflow.log_metric("ma_metrique", 666)
     mlflow.log_metric("TimeToCompute", 1)
+    # multiple are possible
+    # mlflow.log_metrics({
+    #     "tag_cover": stability_results["tag_cover_scores"],
+    #     "jaccard": stability_results["jaccard_scores"],
+    #     "duration": stability_results["duration"],
+    # })
 
     mlflow.log_artifact("my_artifact.csv")
     
