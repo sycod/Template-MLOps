@@ -16,12 +16,14 @@
           "notebook.output.wordWrap": true,
         },
         "extensions": [
-            "ms-python.python",
-            "ms-python.vscode-pylance",
-            "ms-python.pylint",
-            "GitHub.copilot",
-            "xelad0m.jupyter-toc",
-            "mhutchie.git-graph"
+          "ms-vscode-remote.remote-containers",
+          "ms-azuretools.vscode-docker",
+          "ms-python.python",
+          "ms-python.vscode-pylance",
+          "ms-python.pylint",
+          "xelad0m.jupyter-toc",
+          "mhutchie.git-graph",
+          "GitHub.copilot",
         ]
       }
     },
