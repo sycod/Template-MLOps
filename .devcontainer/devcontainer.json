@@ -27,11 +27,11 @@
     },
     "onCreateCommand": {
       "apt_update": "sudo apt update && sudo apt -y upgrade",
-      "venv_create": "python -m venv ~/.env",
+      "venv_create": "python -m venv ~/.venv",
     },
     "updateContentCommand": {
       "apt_update": "sudo apt update && sudo apt -y upgrade",
-      "pip_inst_reqs": "~/.env/bin/pip3 install --upgrade pip && ~/.env/bin/pip3 install -r requirements.txt && echo '✅ Packages installed and Requirements met'",
+      "pip_inst_reqs": "~/.venv/bin/pip3 install --upgrade pip && ~/.venv/bin/pip3 install -r requirements.txt && echo '✅ Packages installed and Requirements met'",
     },
     "postCreateCommand": {
       "bashrc_update": "chmod +x ./.devcontainer/bashrc_update.sh && ./.devcontainer/bashrc_update.sh",
